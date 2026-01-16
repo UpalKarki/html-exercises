@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3: HTML Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student Information Table</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Rohan</td>
+            <td>20</td>
+            <td>Kathmandu</td>
+        </tr>
+        <tr>
+            <td>Sita</td>
+            <td>22</td>
+            <td>Pokhara</td>
+        </tr>
+        <tr>
+            <!-- Merge two columns for a note -->
+            <td colspan="2">Note: Student relocated</td>
+            <td>Bhaktapur</td>
+        </tr>
+    </table>
+</body>
+</html>

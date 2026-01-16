@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4: Semantic HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, article, aside, footer {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        main {
+            display: flex;
+            gap: 20px;
+        }
+        article {
+            flex: 3;
+        }
+        aside {
+            flex: 1;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header: Page title and description -->
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <p>This page demonstrates semantic HTML5 elements with organized sections.</p>
+    </header>
+
+    <!-- Navigation bar: Links to main sections -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main content area with article and aside -->
+    <main>
+        <!-- Article: Primary content of the page -->
+        <article>
+            <h2>About Our Webpage</h2>
+            <p>This article explains the use of semantic HTML elements. Using semantic tags improves
+               accessibility, SEO, and code readability.</p>
+            <p>Here we have an example of a webpage layout including header, navigation, main content,
+               sidebar, and footer.</p>
+        </article>
+
+        <!-- Aside: Secondary content or related information -->
+        <aside>
+            <h3>Related Info</h3>
+            <p>Tips: Always use semantic elements for better structure and easier maintenance of webpages.</p>
+        </aside>
+    </main>
+
+    <!-- Footer: Contact info and copyright -->
+    <footer>
+        <p>Contact: karkiupal29@gmail.com</p>
+        <p>&copy; 2026 My Webpage. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
