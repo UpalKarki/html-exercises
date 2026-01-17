@@ -15,5 +15,5 @@ forms, tables, and semantic HTML5 elements.
 4. Alternatively, open the files using VS Code and run them with Live Server.
 
 ## GitHub Profile
-https://github.com/UpalKarki/student-performance-analysis.git
+https://github.com/UpalKarki/html-exercises.git
 
