@@ -28,5 +28,4 @@ assignment requirements.
 ### CSS Inspection
 ![Inspect Tool Screenshot](student-profile/screenshots/screenshot-inspect.png)
 
-## GitHub Profile
-https://github.com/UpalKarki/student-performance-analysis.git
+
