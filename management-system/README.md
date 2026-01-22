@@ -29,6 +29,19 @@ are strictly avoided as per assignment constraints.
 
 All pages are linked together using HTML anchor tags for navigation.
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Dashboard Page
+![Dashboard Page](screenshots/dashboard.png)
+
+### Data Listing Page
+![List Page](screenshots/list.png)
 
 ## Steps to Run the Project
 1. Clone or download the repository.
