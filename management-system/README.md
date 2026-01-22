@@ -32,16 +32,16 @@ All pages are linked together using HTML anchor tags for navigation.
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](images/home.png)
 
 ### Login Page
-![Login Page](screenshots/login.png)
+![Login Page](images/login.png)
 
 ### Dashboard Page
-![Dashboard Page](screenshots/dashboard.png)
+![Dashboard Page](images/dashboard.png)
 
 ### Data Listing Page
-![List Page](screenshots/list.png)
+![List Page](images/list.png)
 
 ## Steps to Run the Project
 1. Clone or download the repository.
