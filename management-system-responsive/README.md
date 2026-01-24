@@ -29,8 +29,6 @@ This is a responsive, management-oriented web application designed to analyze an
 ### Manage Data Page
 ![Manage Data](images/04-manage-data.png)
 
-### Responsive View (Mobile)
-![Responsive View](images/05-responsive-view.png)
 
 
 
