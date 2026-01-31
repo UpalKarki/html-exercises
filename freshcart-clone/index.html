@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshCart Clone</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-success" href="#">FreshCart</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Stores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- ================= HERO CAROUSEL ================= -->
+<section class="mt-3">
+  <div class="container">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner rounded shadow">
+
+        <div class="carousel-item active">
+          <div class="row align-items-center p-5 bg-light">
+            <div class="col-md-6">
+              <h1 class="fw-bold">SuperMarket for Fresh Grocery</h1>
+              <p class="text-muted">
+                Free delivery on your first order
+              </p>
+              <a href="#" class="btn btn-success">Shop Now</a>
+            </div>
+            <div class="col-md-6 text-center">
+              <img src="images/hero.png" class="img-fluid" alt="Slide 1">
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row align-items-center p-5 bg-light">
+            <div class="col-md-6">
+              <h1 class="fw-bold">Fresh Fruits & Vegetables</h1>
+              <p class="text-muted">
+                Up to 30% off on daily essentials
+              </p>
+              <a href="#" class="btn btn-success">Explore</a>
+            </div>
+            <div class="col-md-6 text-center">
+              <img src="images/hero.png" class="img-fluid" alt="Slide 2">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <h3 class="mb-4">Featured Categories</h3>
+
+    <div class="row text-center">
+      <div class="col-6 col-md-3 mb-4">
+        <div class="category-box shadow-sm">
+          <p class="fw-semibold">Vegetables</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <div class="category-box shadow-sm">
+          <p class="fw-semibold">Fruits</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <div class="category-box shadow-sm">
+          <p class="fw-semibold">Snacks</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <div class="category-box shadow-sm">
+          <p class="fw-semibold">Beverages</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h3 class="mb-4">Popular Products</h3>
+
+    <div class="row">
+
+      <!-- Product Card -->
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card product-card shadow-sm">
+          <img src="images/product.png" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title">Fresh Apple</h6>
+            <p class="text-success fw-bold">$4.99</p>
+            <button class="btn btn-success btn-sm w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card product-card shadow-sm">
+          <img src="images/product.png" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title">Banana</h6>
+            <p class="text-success fw-bold">$2.99</p>
+            <button class="btn btn-success btn-sm w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card product-card shadow-sm">
+          <img src="images/product.png" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title">Orange</h6>
+            <p class="text-success fw-bold">$3.49</p>
+            <button class="btn btn-success btn-sm w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card product-card shadow-sm">
+          <img src="images/product.png" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title">Milk</h6>
+            <p class="text-success fw-bold">$1.99</p>
+            <button class="btn btn-success btn-sm w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Duplicate for more -->
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card product-card shadow-sm">
+          <img src="images/product.png" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title">Chips</h6>
+            <p class="text-success fw-bold">$2.49</p>
+            <button class="btn btn-success btn-sm w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="card product-card shadow-sm">
+          <img src="images/product.png" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title">Cookies</h6>
+            <p class="text-success fw-bold">$3.99</p>
+            <button class="btn btn-success btn-sm w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p class="mb-0">© 2026 FreshCart Clone. For educational purposes only.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+</body>
+</html>

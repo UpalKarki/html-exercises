@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+/* Category Box */
+.category-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.category-box:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+/* Product Card */
+.product-card {
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+.category-box {
+  border: 1px solid #eee;
+  padding: 30px 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.category-box:hover {
+  background-color: #198754;
+  color: white;
+}
+
+.product-card img {
+  height: 180px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
