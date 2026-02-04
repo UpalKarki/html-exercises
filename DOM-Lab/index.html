@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">Hello, World!</h1>
+    <p id="sample-paragraph">This is a sample HTML document.</p>
+    <p class="myparagraph"> This is a paragraph for DOM manipulation practice.</p>
+    <h1 id="title">Update paragraph</h1>
+    <button id="update-btn">Click me</button>
+    <ul>
+        <li>Car</li>
+        <li>Man</li>
+        <li>Fan</li>
+    </ul>
+    <script>
+        //Accessing Elements by id
+        let sampleParagraph = document.getElementById('sample-paragraph');
+        console.log(sampleParagraph);
+        //Accessing Elements by class name
+        let attributeParagraph = document.getElementsByClassName('attribute-paragraph')[0];
+        console.log(attributeParagraph);
+        //Accessing Elements by tag name
+        let h1Elements = document.getElementsByTagName('h1');
+        console.log(h1Elements[0].innerText = "First H1 Element");
+        let h3Elements = document.getElementsByTagName('h1');
+        console.log(h3Elements[1].textContent = "Third H1 Element");
+        let h2Elements = document.getElementsByTagName('h1');
+        console.log(h2Elements[1].innerHTML = "Second <em>H1</em> Element");
+        //Accessing Elements using querySelector
+        let titleElement = document.querySelector('.title');
+        console.log(titleElement);
+        //Accessing Elements using querySelectorAll
+        let listItems = document.querySelectorAll('ul li'); 
+        console.log(listItems);
+        //Updating paragraph text on button click
+        let updateBtn = document.getElementById('update-btn');
+        updateBtn.addEventListener('click', function() {
+            let title = document.getElementById('title');
+            title.innerHTML = "Paragraph Updated!";
+        });
+    </script>
+</body>
+</html>
