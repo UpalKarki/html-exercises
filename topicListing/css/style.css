@@ -1,0 +1,27 @@
+nav{
+background-color: #68b4b6;
+color: rgb(255, 255, 255);
+padding: 20px;
+position: sticky;
+display: flex;
+align-items: center;
+
+}
+
+nav ul{
+list-style-type: none;
+margin: 10;
+padding: 10;
+overflow: hidden;
+text-align: center;
+}
+        
+nav ul li{
+display: inline;
+margin-right: 30px;
+font-size: large;
+}
+
+nav ul li a{
+color: aliceblue;
+}

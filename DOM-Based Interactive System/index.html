@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Workshop Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Workshop Registration</h1>
+</header>
+
+<section class="form-container">
+<form id="regForm">
+
+<input type="text" id="name" placeholder="Full Name">
+<small class="error"></small>
+
+<input type="email" id="email" placeholder="Email Address">
+<small class="error"></small>
+
+<select id="workshop">
+  <option value="">Select Workshop</option>
+  <option>Web Development</option>
+  <option>Artificial Intelligence</option>
+  <option>UI/UX Design</option>
+</select>
+
+<div class="radio-group">
+<label><input type="radio" name="level" value="Beginner"> Beginner</label>
+<label><input type="radio" name="level" value="Intermediate"> Intermediate</label>
+<label><input type="radio" name="level" value="Advanced"> Advanced</label>
+</div>
+<small class="error"></small>
+
+<label class="check">
+<input type="checkbox" id="agree"> I agree to Code of Conduct
+</label>
+<small class="error"></small>
+
+<button type="submit">Register</button>
+
+</form>
+</section>
+
+<section>
+<select id="filter">
+  <option value="All">All Workshops</option>
+  <option>Web Development</option>
+  <option>Artificial Intelligence</option>
+  <option>UI/UX Design</option>
+</select>
+</section>
+
+<section id="participants">
+<p id="empty">No participants registered yet</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
