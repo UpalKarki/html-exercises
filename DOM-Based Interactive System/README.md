@@ -33,4 +33,4 @@ Vanilla JavaScript (DOM only)
 - Email notifications
 
 ## Screenshots 
-- (image/screenshot.png)
+- ![Page](image/screenshot.png)
